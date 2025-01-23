@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto Condensed", serif;
+  background-color: black ;
+}
+.container {
+  padding: 40px;
+}
+
+.sec-1 {
+  background-color: rgb(1, 1, 33);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 20px;
+}
+.sec-1__contactUs{
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(65, 39, 6);
+  color: white;
+  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: grab;
+}
+.sec-1__contactUs:hover{
+  opacity: 60%;
+}
+
+
+.sec-1__name {
+  font-size: 50px;
+  font-weight: bolder;
+}
+.sec-1__role {
+  font-size: 40px;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+.sec-2 {
+  display: inline-block;
+  color: white;
+}
+.sec-2__head {
+  margin-top: 20px;
+  color: rgb(177, 112, 237);
+}
+.sec-2__list {
+  margin-bottom: 10px;
+}
+.sec-2__para:hover {
+  color: rgb(255, 85, 0);
+  cursor:default;
+}
+
+.sec-3 {
+  background-image: linear-gradient(to right, black, #abc466);
+  display: inline-block;
+  color: white;
+  padding: 30px;
+  border-radius: 30px;
+  border: solid 5px white;
+  vertical-align: top;
+}
+.sec-3__head {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.sec-3 li:hover {
+    font-size: larger;
+}
+
+.sec-4 {
+  background-image: linear-gradient(to right, pink, orange);
+  padding: 20px;
+  display: inline-block;
+  width: 900px;
+  vertical-align: top;
+  border-radius: 50px;
+  border: solid 5px white;
+}
+hr {
+  color: white;
+}
+
+.sec-2,
+.sec-3,
+.sec-4,
+.sec-5,
+.sec-6 {
+  margin-top: 30px;
+}
+.sec-2__head,
+.sec-3__head,
+.sec-4__head,
+.sec-5__head,
+.sec-6__head {
+  margin-bottom: 30px;
+  font-weight: bolder;
+}
+.sec-6 a {
+  color: blueviolet;
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+.sec-6 {
+  background-color: rgb(1, 1, 33);
+  color: white;
+  font-size: 30px;
+  padding-right: 30px;
+  padding-left: 40px;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+}
+.sec-4 li,
+.sec-3 li {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+.sec-6 {
+  font-weight: lighter;
+}
+.sec-6 a {
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.sec-6 p {
+  font-size: small;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.sec-6__head {
+  font-size: 20px;
+  font-weight: lighter;
+}
+.sec-6 ul {
+  display: inline-block;
+  position: relative;
+  left: 230px;
+  bottom: 10px;
+  margin-right: 90px;
+}
+.sec-6 ul li {
+  text-decoration: none;
+  font-size: 10px;
+}
+.seccon-1{
+  background-color: rgb(1, 1, 33);
+  padding: 30px;
+  border-radius: 15px;
+  color: white;
+}
+.seccon-1__backbtn{
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left:25px;
+  padding-right:25px;
+  display: inline-block;
+  border-radius: 5px;
+}
+.seccon-2{
+  margin-top: 20px;
+  color: white;
+
+}
+.seccon-2__head{
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.seccon-2__desc{
+  margin-bottom: 20px;
+  color: white;
+}
+.seccon-2__desc:hover{
+color: blueviolet;
+}
+
+
+.seccon-3{
+  color: white;
+}
+.seccon-3__input,.seccon-3__textarea,.seccon-3__submit,.seccon-3__reset,.seccon-3__input__name{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.seccon-3__input,.seccon-3__input__name{
+  border: none;
+  border-bottom: solid white 1px;
+  background-color:transparent;
+  color:white;
+}
+.seccon-3__textarea{
+  padding: 10px;
+}
+.seccon-3__submit,.seccon-3__reset{
+  color: bisque;
+  background-color: rgb(0, 106, 255);
+  padding: 5px;
+  border: none;
+}
+.seccon-3__submit:hover,.seccon-3__reset:hover{
+  opacity: 70%;
+}
